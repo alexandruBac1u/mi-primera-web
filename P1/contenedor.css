@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    
+}

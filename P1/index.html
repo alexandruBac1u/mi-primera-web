@@ -4,31 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Pagina de Alexandru</title>
 </head>
 <body>
-    <h1>Titulo de la WEB de Alberto Alexandru Baciu</h1>
+    <header><h1>Titulo de la WEB de Alberto Alexandru Baciu</h1></header>
     <nav><a href="page2.html">IR A SECCIÓN 2</a> <a href="page3.html">IR A SECCIÓN 3</a></nav>
-    <h1>CONTENIDO PRINCIPAL</h1>
-    <p>Este es el contenido principal de mi web</p>
-    <h2>Testimonios</h2>
-    <p>Me gusta mucho esta página</p>
-    <h2>Formulario de contacto</h2>
-    <form action="" method="post">
-      <label for="nombre">Nombre <br>
-        <input type="text" name="nombre" id="nombre"><br></label>
-      <label for="numero">Número <br>
-        <input type="text" name="numero" id="numero"><br></label>
-      <label for="mensaje">Mensaje <br>
-        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br></label>
 
-      <label for="enviar"><input type="submit" value="Enviar"></label>
-    </form>
+    <section>
+      <div class="contenedor-article">
+        <article class="articlep1">
+          <img class="imagen-portada" src="sanic.jpg" alt="sanic">
+          <iframe class="video-portada" width="560" height="315" src="https://www.youtube.com/embed/f3YoPoP5Bko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+        <article class="articlep2">
+          <h3>Roadmap Web</h3>
+          <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Webpack</li>
+          </ol>
+    
+          <table>
+            <tr>
+              <th>Producto</th>
+              <th>Fabricante</th>
+              <th>Año</th>
+            </tr>
+            <tr>
+              <td>xBox One</td>
+              <td>Microsoft</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>PlayStation</td>
+              <td>Sony</td>
+              <td>1999</td>
+            </tr>
+            <tr>
+              <td>Wii</td>
+              <td>Nintendo</td>
+              <td>2010</td>
+            </tr>
+          </table>  
+        </article>
+      </div>
+      <aside>
+        <h3>Testimonios</h3>
+        <p>Me gusta mucho esta página</p>
+        <h3>Formulario de contacto</h3  >
+          <form action="" method="post">
+            <label for="nombre">Nombre <br>
+              <input type="text" name="nombre" id="nombre"><br></label>
+            <label for="numero">Número <br>
+              <input type="text" name="numero" id="numero"><br></label>
+            <label for="mensaje">Mensaje <br>
+              <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br></label>
+      
+            <label for="enviar"><input type="submit" value="Enviar"></label>
+          </form>
+      </aside>
+    </section>
+      
 
     <footer>
-      <p><b>Redes Sociales</b></p>
+      <h4>Redes Sociales</h4>
 
-      <a href="https://www.Facebook.com">Facebook </a> <a href="http://www.Twitter.com"> Twitter</a>
+      <a class="a-pie" href="https://www.Facebook.com">Facebook </a> <a class="a-pie" href="http://www.Twitter.com"> Twitter</a>
     </footer>
 </body>
 </html>

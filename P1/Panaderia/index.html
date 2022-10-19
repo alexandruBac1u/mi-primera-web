@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/PanIcon-removebg-preview.png">
+    <script src="https://kit.fontawesome.com/53ea93330b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Panaderia</title>
+    <script type="text/javascript">
+      const loadfn =() =>{
+        const _nav =document.querySelector('nav').style;
+        const _img1 =document.getElementsByClassName('logo1');
+        const _img2 =document.getElementsByClassName('logo2');
+
+        if(window.scrollY >10){
+          _nav.backgroundColor = '#101010';
+          _nav.boxShadow = '2px 2px 4px rgba(0,0,0,0.5)';
+          _nav.color = '#ffffff';
+          _img1[0].style.display='none';  
+          _img2[0].style.display='block';
+          
+          
+        }else {
+          _nav.backgroundColor = 'transparent';
+          _nav.boxShadow = 'none';
+          _nav.color = '#000000';
+          _img1[0].style.display='block';
+          _img2[0].style.display='none';
+        }
+      };
+    </script>
+</head>
+<body onscroll="loadfn()">
+  <div class="container">
+    <nav>
+      <img src="img/logo-black-removebg-preview.png" alt="Logo" class="logo1"/>
+      <img src="img/logo-white.png" alt="Logo" class="logo2"/>
+      <ul>
+        <li>Inicio</li>
+        <li>Productos</li>
+        <li>Pedidos especiales</li>
+        <li><i class=" tamaño fa-solid fa-bag-shopping"></i></li>
+        <li><i class="tamaño fa-solid fa-user"></i></li>
+      </ul>
+    </nav>  
+    <header><h1>PANADERIA PAN</h1></header>
+    <section>
+      <img src="" alt="" srcset="">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi accusantium perferendis perspiciatis rerum ad
+      suscipit mollitia minus blanditiis ea. Veniam ut exercitationem in ad atque sapiente consectetur repellat temporibus
+      vero, quibusdam fugit adipisci impedit officia distinctio labore corporis laborum molestias quisquam natus non. Ab non
+      quasi numquam voluptas, alias optio et placeat consequatur! Aut magnam dicta minima. Totam delectus numquam autem quas
+      odio nobis, corporis beatae deleniti provident alias velit veniam doloribus exercitationem ratione a quae eaque
+      accusamus in necessitatibus reprehenderit eius mollitia consequuntur rerum dignissimos. Rerum maxime dolorem nulla
+      repellendus perferendis asperiores voluptatem eos, esse impedit hic quibusdam accusantium similique a? Repudiandae, ab
+      minima. Sed vitae, ab vero optio numquam quo sint dignissimos illum illo quaerat molestiae, unde corporis ut iste
+      temporibus doloribus commodi quod iusto non, tempora consequatur inventore amet? Corrupti eaque incidunt temporibus
+      dignissimos et commodi accusantium odio illo! Illo tempora quas libero voluptatem aut molestiae soluta possimus cumque
+      quod a sunt impedit neque repellat praesentium debitis nesciunt, nobis vel inventore blanditiis explicabo magni qui
+      enim! Perferendis, vero, esse, quis molestias ea quibusdam optio cupiditate necessitatibus dolores repudiandae
+      distinctio! Maiores voluptas laborum ipsam quod quasi soluta architecto harum fuga nobis? Voluptas modi at asperiores
+      vitae quis nostrum, quas, mollitia tempora magnam consequuntur nobis a, possimus officiis veniam laboriosam dicta!
+      Quasi nisi nihil temporibus doloremque eaque ipsa voluptatem error sed ratione velit mollitia, dignissimos accusantium
+      nostrum rerum tempore est exercitationem sequi, quia aperiam facilis officia maiores quidem iste perspiciatis?
+      Consectetur temporibus soluta, numquam impedit distinctio ut dolores eius nisi dolorum doloremque eligendi
+      reprehenderit corporis maiores natus aliquam adipisci dolore nemo molestiae totam deserunt aliquid inventore. Eveniet
+      distinctio atque facere qui, tempore eaque, ducimus consequuntur officiis maiores, vero obcaecati voluptatem?
+      Explicabo corrupti saepe impedit nemo eius natus libero? Dignissimos cumque quam dolor ipsam assumenda explicabo,
+      nostrum veritatis. Dolores illo deleniti error fuga laborum quisquam ex explicabo. Inventore accusamus dolorem qui,
+      aut ratione ipsa, ducimus itaque distinctio rem quam minus? Placeat facilis voluptatibus explicabo distinctio unde
+      error sapiente. Incidunt tenetur numquam consequuntur ipsa distinctio magnam similique minima delectus. Dolor
+      distinctio blanditiis, rem vitae explicabo odio earum. Non sunt blanditiis quos totam impedit exercitationem dolorem
+      incidunt dolorum doloremque excepturi laudantium eligendi explicabo placeat accusantium, dignissimos, voluptatem cum
+      officiis adipisci dolor! Molestias dolore exercitationem veniam eaque, non minima, voluptates aliquid iusto harum
+      quasi, distinctio aut excepturi nesciunt ex officia vel nulla rem! Voluptatibus inventore officia nihil nam blanditiis
+      suscipit perspiciatis, repellendus adipisci.</section>
+  </div>
+</body>
+</html>

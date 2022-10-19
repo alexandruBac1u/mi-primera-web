@@ -1,0 +1,14 @@
+header{
+    height: 40vh;
+    background-image: url(https://media.istockphoto.com/photos/paving-slabs-seamless-tileable-texture-picture-id467608029);
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
